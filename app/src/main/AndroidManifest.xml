@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        IZIN AKSES PENYIMPANAN
+        =======================
+        Diperlukan untuk mengakses gambar dari galeri device.
+
+        READ_EXTERNAL_STORAGE = untuk Android 12 (API 32) ke bawah
+        READ_MEDIA_IMAGES     = untuk Android 13 (API 33) ke atas
+
+        Android 13+ menggunakan sistem izin baru yang lebih granular,
+        sehingga kita perlu mendeklarasikan kedua permission.
+    -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Inventaris Barang"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InventarisBarang">
+
+        <!--
+            MainActivity adalah entry point (titik masuk) aplikasi.
+            android:exported="true" = bisa diakses dari luar (launcher)
+            intent-filter MAIN + LAUNCHER = muncul di home screen device
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.InventarisBarang">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

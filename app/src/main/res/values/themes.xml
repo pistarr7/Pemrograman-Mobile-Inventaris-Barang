@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Theme aplikasi menggunakan Material3 DynamicColors (Android 12+).
+        Untuk device Android 11 ke bawah, fallback ke Material3 DayNight.
+        
+        Kita menggunakan Theme.Material3.DayNight.NoActionBar karena
+        TopAppBar sudah diatur di dalam Compose (bukan dari XML).
+    -->
+    <style name="Theme.InventarisBarang" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>
