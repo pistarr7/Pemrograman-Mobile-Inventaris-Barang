@@ -4,7 +4,7 @@ Aplikasi manajemen inventaris barang sederhana menggunakan **Jetpack Compose**, 
 
 ---
 
-## Identitas Pengembang
+## Identitas Mahasiswa
 
 - **Nama**: Willy Rafael F. Silalahi
 - **NIM**: 23083000168
