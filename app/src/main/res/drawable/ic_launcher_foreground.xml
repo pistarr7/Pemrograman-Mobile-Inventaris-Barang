@@ -4,20 +4,17 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Ikon kotak/box inventaris -->
+    <!-- Ikon kotak kardus dikemas -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M34,38 L54,28 L74,38 L74,62 L54,72 L34,62 Z"/>
+        android:fillColor="#D9A66C"
+        android:pathData="M28,38 h52 v48 h-52 z"/>
     <path
-        android:fillColor="#E8DEF8"
-        android:pathData="M54,28 L54,52 L34,42 L34,38 Z"/>
+        android:fillColor="#C68F52"
+        android:pathData="M28,38 L54,20 L80,38 Z"/>
     <path
-        android:fillColor="#D0BCFF"
-        android:pathData="M54,28 L54,52 L74,42 L74,38 Z"/>
+        android:fillColor="#F5EFE3"
+        android:pathData="M28,34 h52 v10 h-52 z"/>
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M34,42 L54,52 L54,72 L34,62 Z"/>
-    <path
-        android:fillColor="#E8DEF8"
-        android:pathData="M74,42 L54,52 L54,72 L74,62 Z"/>
+        android:fillColor="#F5EFE3"
+        android:pathData="M48,38 h12 v48 h-12 z"/>
 </vector>
